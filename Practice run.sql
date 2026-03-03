@@ -3,4 +3,5 @@ SELECT * FROM [PnP_Store].[dbo].[pnp_sales_2025_02]
 
 SELECT *
 FROM [PnP_Store].[dbo].[pnp_sales_2025_01]
-	JOIN [PnP_Store].[dbo].[pnp_sales_2025_02]
+JOIN [PnP_Store].[dbo].[pnp_sales_2025_02] 
+ON [PnP_Store].[dbo].[pnp_sales_2025_01].ProductName=[PnP_Store].[dbo].[pnp_sales_2025_02].ProductName
